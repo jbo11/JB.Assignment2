@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        header img {
+            width: 100px;
+            height: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        textarea {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="assets/logo.png" alt="JBo logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Get in Touch, I Promise I Don't Bite... Much!</h2>
+    <p>Hey there, if you've made it to this page, you're probably trying to avoid me, but don't worry, I won't be mad.<br><br>
+        In fact, I'm happy you're here! Whether you have a question, a suggestion, or just want to say hi, I'm all ears.<br><br>
+        So fill out that contact form, hit send, and let's chat. And don't worry, I won't bite... well, maybe just a little nibble.</p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</main>
+<footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+</footer>
+</body>
+</html>
